@@ -1,0 +1,1199 @@
+  1) Write the HTML code for generating the form as shown below. Apply the 
+internal CSS to following form to change the font size of the heading to 6pt 
+and change the color to red and also change the background color to yellow
+
+(Save by .html)  
+SOLUTION: 
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <title>Project Management</title> 
+</head> 
+<body style="background-color: yellow;"> 
+   <h1>Project Management</h1> 
+    <form> 
+        <label for="projectName">Project Name:</label> 
+        <input type="text" id="projectName" name="projectName" value="project 
+name"><br><br> 
+        <label for="assignedTo">Assigned to:</label> 
+        <select id="assignedTo" name="assignedTo"> 
+            <option value="Er Merry Petision">Er Merry Petision</option> 
+            </select><br><br> 
+        <label for="startDate">Start Date:</label> 
+        <input type="date" id="startDate" name="startDate" value="dd-mm
+yyyy"><br><br> 
+        <label for="endDate">End Date:</label> 
+        <input type="date" id="endDate" name="endDate" value="dd-mm
+yyyy"><br><br> 
+        <label for="priority">Priority:</label> 
+        <input type="radio" id="high" name="priority" value="High"> 
+        <label for="high">High</label> 
+        <input type="radio" id="average" name="priority" value="Average"> 
+        <label for="average">Average</label> 
+        <input type="radio" id="low" name="priority" value="Low"> 
+        <label for="low">Low</label> 
+        <label for="description">Description:</label><br> 
+        <textarea id="description" name="description" rows="5" 
+cols="40"></textarea><br><br> 
+        <input type="submit" value="Submit"> 
+        <input type="reset" value="Clear"> 
+    </form> 
+</body> 
+</html> 
+ 
+
+ 
+2) Create HTML5 page with following specifications [15]  
+i) Title should be about your City.  
+ii) Color the background by Pink color.  
+iii) Place your city name at the top of page in large text and in blue color.  
+iv) Add names of the landmarks in your city, each in different color, style and 
+font  
+v) Add any image at the bottom. (Use inline CSS to format the web page)  
+(Save by .html)  
+ 
+SOLUTION: 
+<!DOCTYPE html>  
+<html>  
+<head>  
+<title>Pune city</title>  
+<marquee style="background-color:yellow;padding:20px;font-size:20px;">  
+Pune city is best for education.  
+</marquee>  
+</head>  
+<bodystyle="background-color:pink;>  
+<br><br>  
+<h1 style="color:blue; font-size:large;">Pune City</h1>  
+<ul type="disc">  
+<li style="font-size:17px;">Landmarks:</li>  
+<ul>  
+<li style="color:red;font-size:11px;">Kothrud</li>  
+<li style="color:orange;font-size:12px;">MoryaGOsawi</li>  
+<li style="color:green;font-size:13px;">Dagdusheth</li>  
+<li style="color:aqua;font-size:14px;">Alandi</li>  
+</ul>  
+</ul>  
+<br><br>  
+<img src="file:///C:/Users/dpo77/OneDrive/Desktop/webTechnology/HTML
+%20DEMO-PGM/images/rose.jpg" height="300px" width="500px;">  
+</body>  
+</html> 
+
+
+3)  Write a program using html with following CSS specifications- [15]  
+i. The background colour of the company name should be in green.  
+ii. The text colour of the company name should be red.  
+iii. The heading should be large –with font ''comic sans ms''  
+iv. The description of the company should be displayed in blue color in a 
+paragraph  
+(Save by .html)  
+ 
+SOLUTION: 
+ 
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Company Info</title> 
+    <style> 
+        .company-name { 
+            background-color: green; 
+            color: red; 
+            font-family: 'Comic Sans MS', cursive, sans-serif; 
+            padding: 10px; 
+            text-align: center; 
+        } 
+        .description { 
+            color: blue; 
+            font-size: 16px; 
+            margin: 20px; 
+        } 
+    </style> 
+</head> 
+<body> 
+    <h1 class="company-name">My Company Name</h1> 
+    <p class="description">We are a leading company in innovative solutions, 
+dedicated to providing the best services to our clients.</p> 
+</body> 
+</html> 
+
+
+
+ 
+4) Write a HTML code, which generate the following output [15] 
+ 
+(Save by .html)  
+ 
+ 
+SOLUTION: 
+ 
+<!doctype html>  
+<html>  
+<head>  
+<title>  
+Program for printing table  
+</title>  
+<style>  
+table, td, th, tr{  
+border: 1px solid black;  
+border-collapse: collapse;  
+padding: 18px;  
+text-align: center;  
+}  
+</style>  
+</head>  
+<body>  
+<h1 align="center"> List of Books </h1>  
+<table align="center">  
+<tr>  
+<td rowspan="2"> Item No </td>  
+<td rowspan="2"> Item Name </td>  
+<td colspan="2"> Price </td>  
+</tr>  
+<tr>  
+<td> Rs. </td>  
+<td> Paise </td>  
+</tr>  
+<tr>  
+<td> 1. </td>  
+<td> Programming in Python </td>  
+<td> 500 </td>  
+<td> 50 </td>  
+</tr>  
+<tr>  
+<td> 2. </td>  
+<td> Programming in Java </td>  
+<td> 345 </td>  
+<td> 65 </td>  
+</tr>  
+</tbody>  
+</table>  
+</body>  
+</html> 
+ 
+5) Create following Bootstrap Web Layout Design and change Title, add your 
+personal information, educational information, job profile.  
+ 
+ 
+ 
+(Save by .html)  
+ 
+SOLUTION: 
+ 
+<html lang="en"> 
+<head> 
+<title>Bootstrap Example</title> 
+<meta charset="utf-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<link rel="stylesheet" 
+href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.c 
+ss"> 
+<script 
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></scrip 
+t> 
+<script 
+src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"> 
+</script> 
+</head> 
+<body> 
+<div class="jumbotron text-center"> 
+<h1>My First Bootstrap Page</h1> 
+<p>Resize this responsive page to see the effect!</p> 
+</div> 
+<div class="container"> 
+<div class="row"> 
+<div class="col-sm-4"> 
+<h3>Personal Information</h3> 
+<p>Add your personal information..</p> 
+<p>...</p> 
+</div> 
+<div class="col-sm-4"> 
+<h3>Educational Information</h3> 
+<p>Add your educational information....</p> 
+<p>...</p> 
+</div> 
+<div class="col-sm-4"> 
+<h3>Job Profile</h3> 
+<p>Add your job profile information.....</p> 
+<p>...</p> 
+</div> 
+</div> 
+</div> 
+</body> 
+</html> 
+ 
+6) Create following Bootstrap Web Layout Design and set Header 
+background color Blue, add your College name, set Menu section background 
+color green create menu About Us, In content section add college information, 
+background color yellow, Footer section background color red, add address of 
+college.  
+ 
+(Save by .html)  
+ 
+SOLUTION: 
+ 
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <title>Layout Example</title> 
+    <style> 
+        body { 
+            margin: 0; 
+            font-family: Arial, sans-serif; 
+        } 
+        header { 
+            background-color: #2a6ebd;  /* Blue */ 
+            color: white; 
+            padding: 20px; 
+            text-align: center; 
+        } 
+        nav { 
+            background-color: #36b5b0; /* Cyan */ 
+            width: 25%; 
+            float: left; 
+            padding: 20px; 
+            height: 400px; 
+            box-sizing: border-box; 
+        } 
+        section { 
+            background-color: #f3a41c; /* Yellow/Orange */ 
+            width: 75%; 
+            float: left; 
+            padding: 20px; 
+            height: 400px; 
+            box-sizing: border-box; 
+        } 
+        footer { 
+            clear: both; 
+            background-color: #e33c3c; /* Red */ 
+            color: white; 
+            text-align: center; 
+            padding: 15px; 
+        } 
+    </style> 
+</head> 
+<body> 
+ 
+    <header> 
+        <h1>Header</h1> 
+    </header> 
+ 
+    <nav> 
+        <h2>Menu</h2> 
+    </nav> 
+ 
+    <section> 
+        <p> 
+            Sriracha biodiesel taxidermy organic post-ironic, Intelligentsia salvia 
+mustache 90's  
+            code editing brunch. Butcher polaroid VHS art party, hashtag Brooklyn 
+deep v PBR narwhal  
+            sustainable mixtape swag wolf squid tote bag. Tote bag cronut semiotics, 
+raw denim deep v  
+            taxidermy messenger bag. Tofu YOLO Etsy, direct trade ethical Odd 
+Future jean shorts paleo.  
+            Forage Shoreditch tousled aesthetic irony, street art organic Bushwick 
+artisan cliche  
+            semiotics ugh synth chillwave meditation. Shabby chic lomo plaid vinyl 
+chambray Vice.  
+            Vice sustainable cardigan, Williamsburg master cleanse hella DIY 90's 
+blog. 
+        </p> 
+    </section> 
+ 
+    <footer> 
+        <p>Footer</p> 
+    </footer> 
+ 
+</body> 
+</html> 
+
+
+ 
+7) Design HTML 5 Page Using CSS Which Displays the following Navigation 
+Bar . 
+ (Save by .html)  
+
+ 
+SOLUTION: 
+ 
+<!DOCTYPE html>  
+<html>  
+<head>  
+<style>  
+#ul-nb {  
+list-style: none;  
+margin:2px;  
+padding:3px;  
+}  
+#ul-nb li {  
+float:left;  
+padding:10px;  
+background:orange;  
+text-align: center;  
+margin-left:5px;  
+}  
+#ul-nbli:hover {  
+background:red;  
+opacity:0.8;  
+color:white;  
+}  
+</style>  
+</head>  
+List of Books  
+<body>  
+<ul id="ul-nb">  
+<li><a href="">Home</a></li>  
+<li><a href="">Java</a></li>  
+<li><a href="">HTML</a></li>  
+<li><a href="">CSS</a></li>  
+</ul>  
+</body>  
+</html> 
+
+
+ 
+8)  Design an HTML form to accept two strings from the user. Write a PHP 
+script for the following. 
+a. Find whether the small string appears at the start of the large string. 
+b. Find the position of the small string in the big string. 
+c. Compare both the string for first n characters, also the comparison should 
+not be case sensitive.  
+ 
+ 
+SOLUTION: 
+(Save by .html)  
+ 
+<form method="POST" action="setb1ph.php">  
+<label for="smallString">Small String:</label>  
+<input type="text" name="smallString" id="smallString" required>  
+<label for="bigString">Big String:</label>  
+<input type="text" name="bigString" id="bigString" required>  
+<input type="submit" value="Submit">  
+</form>  
+(Save by . setb1ph.php)  
+<?php  
+if ($_SERVER["REQUEST_METHOD"] == "POST") {  
+$smallString = $_POST["smallString"];  
+$bigString = $_POST["bigString"];  
+// a. Find whether the small string appears at the start of the large string  
+$startsWith = (strpos($bigString, $smallString) === 0);  
+// b. Find the position of the small string in the big string  
+$position = strpos($bigString, $smallString);  
+// c. Compare both strings for the first n characters (case insensitive)  
+$n = 5; // Change this value to the desired number of characters to compare  
+$comparison = strncasecmp($smallString, $bigString, $n);  
+// Output the results  
+echo "Starts with small string: " . ($startsWith ? "Yes" : "No") . "<br>";  
+echo "Position of small string: " . ($position !== false ? $position : "Not found") . 
+"<br>"; echo "Comparison of first $n characters: " . ($comparison == 0 ? "Equal" : 
+"Not equal") . "<br>"; 
+}  
+?> 
+
+
+ 
+9)Write a PHP script for the following: Design a form having a text box and a 
+drop down list containing any 3 separators(e.g. #, |, %, @, ! or comma) accept 
+a strings from the user and also a separator.  
+a. Split the string into separate words using the given separator.  
+b. Replace all the occurrences of separator in the given string with some other 
+separator.  
+c. Find the last word in the given string.  
+ 
+ 
+SOLUTION:  
+(Save by . html)  
+ 
+<html>  
+<body bgcolor=#c29bb8>  
+<form action="setb2ph1.php" method=get>  
+<pre>  
+Enter any string:<input type=text name=s>  
+Select seperator from following:<select name=s1>  
+<option> | </option>  
+<option> @ </option>  
+<option> # </option>  
+</select>  
+<input type=submit value=show_output>  
+</pre>  
+</form>  
+</body>  
+</html> 
+************setb2ph.php***********  
+<html>  
+<body bgcolor="#67074e">  
+<?php  
+$str = $_GET['s'];  
+$separator = $_GET['s1']; echo "<br>Given String: $str";  
+$arr=explode($separator,$str);  
+$words=implode(" ",$arr);  
+echo "<br> String into words: $words";  
+$str_rep=str_replace($separator,'#',$str); echo "<br>After Replacement: $str_rep";  
+$lpos=strrpos($str," ");  
+echo "<br>last word in given string:" .substr($str,$lpos);  
+?>  
+</body>  
+</html> 
+
+
+
+10)Write a script to accept two integers(Use html form having 2 textboxes). 
+Write a PHP script to,  
+a. Find mod of the two numbers.  
+b. Find the power of first number raised to the second.  
+c. Find the sum of first n numbers (considering first number as n)  
+d. Find the factorial of second number.  
+(Write separate function for each of the above operations.)  
+SOLUTION: 
+(Save by . html)  
+ 
+ <!DOCTYPE html>  
+<html>  
+<body>  
+<form action="calculate.php" method="post">  
+<input type="text" name="num1" placeholder="Enter first number">  
+<input type="text" name="num2" placeholder="Enter second number">  
+<input type="submit" value="Calculate">  
+</form>  
+</body>  
+</html> 
+ 
+ 
+ calculate.php  
+<?php  
+// Function to find the modulus of the two numbers 
+ 
+ function findModulus($num1, $num2) 
+ {  
+return $num1 % $num2;  
+}  
+// Function to find the power of the first number raised to the second 
+ 
+function findPower($num1, $num2) 
+ { 
+ return pow($num1, $num2);  
+}  
+// Function to find the sum of first n numbers  
+ 
+function findSum($n) 
+ {  
+return ($n * ($n + 1)) / 2;  
+}  
+// Function to find the factorial of the second number function  
+ 
+findFactorial($num)  
+{  
+if ($num === 0) { 
+return 1;  
+} else {  
+return $num * findFactorial($num - 1);  
+}  
+}  
+// Retrieve input from the form  
+$num1 = $_POST['num1'];  
+$num2 = $_POST['num2'];  
+// Perform the operations  
+$modulus = findModulus($num1, $num2);  
+$power = findPower($num1, $num2);  
+$sum = findSum($num1);  
+$factorial = findFactorial($num2); 
+// Display the results  
+echo "Modulus: " . $modulus . "<br>";  
+echo "Power: " . $power . "<br>";  
+echo "Sum of first " . $num1 . " numbers: " . $sum . "<br>";  
+echo "Factorial of " . $num2 . ": " . $factorial;  
+?> 
+ 
+11) 
+ 
+ 
+(Save by . html) 
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+<title>Bootstrap Buttons Example</title>  
+<!-- Bootstrap CSS CDN -->  
+<link rel="stylesheet" 
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">  
+</head>  
+<body>  
+<div class="container mt-5">  
+<h2>Bootstrap Button Styles</h2>  
+<div class="btn-group" role="group" aria-label="Button group">  
+<button type="button" class="btn btn-secondary">Secondary</button>  
+<button type="button" class="btn btn-primary">Primary</button>  
+<button type="button" class="btn btn-success">Success</button>  
+<button type="button" class="btn btn-danger">Danger</button>  
+<button type="button" class="btn btn-warning">Warning</button>  
+<button type="button" class="btn btn-info">Info</button>  
+</div>  
+</div> 
+<!-- Bootstrap JS and dependencies -->  
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>  
+<script 
+src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js">
+ </script>  
+<script 
+src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></scri
+ pt>  
+</body>  
+</html> 
+
+
+ 
+12) Write a PHP script for the following: Design a form to accept two numbers 
+from the user. Give options to choose the arithmetic operation (use radio 
+buttons). Display the result on the next form. (Use the concept of function and 
+default parameters. Use ‘include’ construct or require statement) 
+(Save by . html) 
+
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+<title>Arithmetic Operations</title>  
+<style>  
+Body  
+{  
+font-family: Arial, sans-serif; margin: 20px;  
+}  
+button  
+{  
+margin-top: 10px;  
+}  
+.result  
+{  
+margin-top: 20px; border: 1px solid #ccc; padding: 10px; background-color: 
+#f9f9f9;  
+}  
+</style>  
+</head>  
+<body>  
+<h2>Arithmetic Operations</h2> 
+<form method="POST" action="Q2.php">  
+<label for="num1">Enter first number:</label><br>  
+<input type="number" id="num1" name="num1" required><br><br> 
+<label for="num2">Enter second number:</label><br>  
+<input type="number" id="num2" name="num2" required><br><br>  
+<label>Select an operation:</label><br>  
+<input type="radio" name="operation" value="add" checked>Add<br>  
+<input type="radio" name="operation" value="subtract">Subtract<br>  
+<input type="radio" name="operation" value="multiply">Multiply<br>  
+<input type="radio" name="operation" value="divide">Divide<br><br>  
+<button type="submit">Calculate</button>  
+</form>  
+</body>  
+</html> 
+********************functions.php file  
+<?php  
+function calculate($num1 = 0, $num2 = 0, $operation = 'add') {  
+switch ($operation) {  
+case 'add':  
+return $num1 + $num2;  
+case 'subtract':  
+return $num1 - $num2;  
+case 'multiply':  
+return $num1 * $num2;  
+case 'divide':  
+return $num2 != 0 ? $num1 / $num2 : 'Division by zero error';  
+default: 
+return 'Invalid operation';  
+****************Q2.php file  
+<?php  
+if ($_SERVER["REQUEST_METHOD"] == "POST") {  
+// Include the functions file  
+include 'functions.php';  
+// Retrieve the input values  
+$num1 = isset($_POST['num1']) ? floatval($_POST['num1']) : 0;  
+$num2 = isset($_POST['num2']) ? floatval($_POST['num2']) : 0;  
+$operation = isset($_POST['operation']) ? $_POST['operation'] : 'add';  
+// Perform the calculation  
+$result = calculate($num1, $num2, $operation);  
+// Display the result  
+echo "<h3>Result:</h3>";  
+echo "<p>The result of $operation $num1 and $num2 is: $result</p>";  
+}  
+?> 
+
+
+
+13)Write a PHP script to create a chess board using CSS on table cells. 
+(Save by . php) 
+
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <title>Chess Board</title> 
+    <style> 
+        table { border-collapse: collapse; } 
+        td { 
+            width: 60px; 
+            height: 60px; 
+        } 
+        .white { background-color: #f0d9b5; } 
+        .black { background-color: #b58863; } 
+    </style> 
+</head> 
+<body> 
+    <table> 
+        <?php 
+        for ($row = 0; $row < 8; $row++) { 
+            echo "<tr>"; 
+            for ($col = 0; $col < 8; $col++) { 
+                $color = ($row + $col) % 2 == 0 ? 'white' : 'black'; 
+                echo "<td class='$color'></td>"; 
+            } 
+            echo "</tr>"; 
+        } 
+        ?> 
+    </table> 
+</body> 
+</html> 
+ 
+ 
+ 
+14) Create a container add row inside it and add 3 columns inside row using 
+BootStrap.  
+(Save by . html) 
+
+
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<title>Bootstrap Grid Example</title>  
+<!-- Bootstrap CSS CDN -->  
+<link rel="stylesheet" 
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">  
+</head>  
+<body>  
+<div class="container mt-5">  
+<h2>Bootstrap Grid Example</h2>  
+<div class="row">  
+<div class="col">  
+<div class="p-3 border bg-light">Column 1</div>  
+</div>  
+<div class="col">  
+<div class="p-3 border bg-light">Column 2</div>  
+</div>  
+<div class="col">  
+<div class="p-3 border bg-light">Column 3</div>  
+</div>  
+</div>  
+</div>  
+<!-- Bootstrap JS and dependencies -->  
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>  
+<script 
+src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js">
+ </script>  
+<script 
+src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></scri
+ pt>  
+</body>  
+</html>  
+
+
+
+15) Design a form to accept string from the user and perform the following 
+operations  
+a. To select first 5 words from the string  
+b. Convert the given string to lowercase and then to Title case.  
+c. Pad the given string with “*” from left and right both the sides.  
+d. Remove the leading whitespaces from the given string.  
+e. Find the reverse of given string.  
+(Save by . php) 
+
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <title>String Operations</title> 
+</head> 
+<body> 
+    <h2>Enter a String</h2> 
+    <form method="post"> 
+        <input type="text" name="inputStr" size="60" required> 
+        <input type="submit" name="submit" value="Process"> 
+    </form> 
+ 
+<?php 
+if (isset($_POST['submit'])) { 
+    $str = $_POST['inputStr']; 
+ 
+    echo "<h3>Original String:</h3> $str <br><br>"; 
+ 
+    // (a) Select first 5 words 
+    $words = explode(" ", trim($str)); 
+    $first5 = implode(" ", array_slice($words, 0, 5)); 
+    echo "<b>a)</b> First 5 words: $first5 <br><br>"; 
+ 
+    // (b) Convert to lowercase then Title case 
+    $lower = strtolower($str); 
+    $title = ucwords($lower); 
+    echo "<b>b)</b> Lowercase: $lower <br>"; 
+    echo "   Title Case: $title <br><br>"; 
+ 
+    // (c) Pad string with '*' on left and right 
+    $padded = str_pad($str, strlen($str) + 10, "*", STR_PAD_BOTH); 
+    echo "<b>c)</b> Padded String: $padded <br><br>"; 
+ 
+    // (d) Remove leading whitespaces 
+    $noLeading = ltrim($str); 
+    echo "<b>d)</b> Without Leading Whitespaces: '$noLeading' <br><br>"; 
+ 
+    // (e) Reverse string 
+    $reverse = strrev($str); 
+    echo "<b>e)</b> Reverse of String: $reverse <br><br>"; 
+} 
+?> 
+</body> 
+</html> 
+
+
+16) Write a PHP script for the following: Design a form to accept the marks of 5 
+different subjects of a student, having serial number, subject name & marks out 
+of 100. Display the result in the tabular format which will have total, percentage 
+and grade. Use only 3 text boxes.(Use array of form parameters) 
+(Save by . php) 
+
+
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <title>Student Marks Result</title> 
+</head> 
+<body> 
+    <h2>Enter Marks of 5 Subjects</h2> 
+    <form method="post"> 
+        <!-- Using array input --> 
+        Subject Names (comma separated): <br> 
+        <input type="text" name="subject[]" size="60" placeholder="Eg: 
+English,Math,Science,History,CS" required><br><br> 
+         
+        Marks (comma separated): <br> 
+        <input type="text" name="subject[]" size="60" placeholder="Eg: 
+78,85,90,67,88" required><br><br> 
+         
+        Serial Numbers (comma separated): <br> 
+        <input type="text" name="subject[]" size="60" placeholder="Eg: 1,2,3,4,5" 
+required><br><br> 
+         
+        <input type="submit" name="submit" value="Show Result"> 
+    </form> 
+ 
+<?php 
+if (isset($_POST['submit'])) { 
+    // Fetch array values 
+    $subjects = explode(",", $_POST['subject'][0]);  // Subject names 
+    $marks = explode(",", $_POST['subject'][1]);     // Marks 
+    $serials = explode(",", $_POST['subject'][2]);   // Serial numbers 
+ 
+    // Clean up extra spaces 
+    $subjects = array_map('trim', $subjects); 
+    $marks = array_map('trim', $marks); 
+    $serials = array_map('trim', $serials); 
+ 
+    $total = 0; 
+    $count = count($marks); 
+ 
+    echo "<h3>Result Table</h3>"; 
+    echo "<table border='1' cellpadding='8' cellspacing='0'>"; 
+    echo "<tr><th>Serial No.</th><th>Subject</th><th>Marks (out of 
+100)</th></tr>"; 
+ 
+    for ($i = 0; $i < $count; $i++) { 
+        echo "<tr> 
+                <td>{$serials[$i]}</td> 
+                <td>{$subjects[$i]}</td> 
+                <td>{$marks[$i]}</td> 
+              </tr>"; 
+        $total += $marks[$i]; 
+    } 
+    echo "</table><br>"; 
+ 
+    $percentage = $total / $count; 
+ 
+    // Grade calculation 
+    if ($percentage >= 90) $grade = "A+"; 
+    elseif ($percentage >= 75) $grade = "A"; 
+    elseif ($percentage >= 60) $grade = "B"; 
+    elseif ($percentage >= 50) $grade = "C"; 
+    elseif ($percentage >= 40) $grade = "D"; 
+    else $grade = "Fail"; 
+ 
+    echo "<b>Total Marks:</b> $total / " . ($count*100) . "<br>"; 
+    echo "<b>Percentage:</b> " . number_format($percentage, 2) . "%<br>"; 
+    echo "<b>Grade:</b> $grade<br>"; 
+} 
+?> 
+</body> 
+</html> 
+
+
+
+17)Write a PHP script to sort the following associative array : 
+array(“Sagar"=>"31","Vicky"=>"41","Leena"=>"39","Ramesh"=>"40") in  
+a) ascending order sort by Value  
+b) ascending order sort by Key  
+c) descending order sorting by Value  
+d) descending order sorting by Key  
+ 
+
+(Save by . php) 
+<?php 
+// Original associative array 
+$arr = array( 
+    "Sagar"  => "31", 
+    "Vicky"  => "41", 
+    "Leena"  => "39", 
+    "Ramesh" => "40" 
+); 
+ 
+echo "<h3>Original Array</h3>"; 
+print_r($arr); 
+echo "<br><br>"; 
+ 
+// (a) Ascending order sort by Value 
+asort($arr);  // Sort by value, maintain key association 
+echo "<b>a) Ascending order by Value:</b><br>"; 
+print_r($arr); 
+echo "<br><br>"; 
+ 
+// (b) Ascending order sort by Key 
+ksort($arr);  // Sort by key 
+echo "<b>b) Ascending order by Key:</b><br>"; 
+print_r($arr); 
+echo "<br><br>"; 
+ 
+// (c) Descending order sort by Value 
+arsort($arr);  // Sort by value (reverse) 
+echo "<b>c) Descending order by Value:</b><br>"; 
+print_r($arr); 
+echo "<br><br>"; 
+ 
+// (d) Descending order sort by Key 
+krsort($arr);  // Sort by key (reverse) 
+echo "<b>d) Descending order by Key:</b><br>"; 
+print_r($arr); 
+echo "<br><br>"; 
+?> 
+
+
+ 
+18)Create an array of 15 high temperatures, approximating the weather for a 
+spring month, then find the average high temp, the five warmest high temps 
+Display the result on the browser. 
+(Save by . php) 
+
+
+<?php 
+// Create an array of 30 high temperatures for a spring month (approximate) 
+$temps = [ 
+    55, 58, 62, 65, 67, 70, 72, 75, 74, 68, 
+    66, 64, 63, 61, 59, 60, 62, 65, 69, 71, 
+    73, 77, 78, 80, 79, 76, 74, 70, 68, 65 
+]; 
+ 
+// Calculate average high temperature 
+$average = array_sum($temps) / count($temps); 
+ 
+// Sort temps ascending for coolest to warmest 
+sort($temps); 
+ 
+// Get five coolest temps (first 5 elements) 
+$coolest = array_slice($temps, 0, 5); 
+ 
+// Get five warmest temps (last 5 elements) 
+$warmest = array_slice($temps, -5, 5); 
+ 
+// Display results in HTML 
+?> 
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <title>Spring Month Temperatures</title> 
+</head> 
+<body> 
+    <h1>Spring Month High Temperatures</h1> 
+    <p><strong>Average High Temperature:</strong> <?php echo round($average, 
+1); ?>&deg;F</p> 
+ 
+    <p><strong>Five Coolest High Temperatures:</strong> 
+        <?php 
+        echo implode("&deg;F, ", $coolest) . "&deg;F"; 
+        ?> 
+    </p> 
+ 
+    <p><strong>Five Warmest High Temperatures:</strong> 
+        <?php 
+        echo implode("&deg;F, ", $warmest) . "&deg;F"; 
+        ?> 
+    </p> 
+</body> 
+</html> 
+
+
+19) Write a menu driven program to perform the following queue related 
+operations  
+a) Insert an element in queue  
+b) Delete an element from queue  
+c) Display the contents of queue  
+(Save by . php and run on terminal only) 
+
+<?php 
+// Queue implementation using array 
+$queue = array(); 
+ 
+while (true) { 
+    echo "\n====== Queue Operations ======\n"; 
+    echo "1. Insert an element in Queue\n"; 
+    echo "2. Delete an element from Queue\n"; 
+    echo "3. Display Queue\n"; 
+    echo "4. Exit\n"; 
+    echo "Enter your choice: "; 
+     
+    $choice = trim(fgets(STDIN)); // Read user choice 
+ 
+    switch ($choice) { 
+        case 1: 
+            echo "Enter element to insert: "; 
+            $element = trim(fgets(STDIN)); 
+            array_push($queue, $element);   // Insert at end 
+            echo "Inserted: $element\n"; 
+            break; 
+ 
+        case 2: 
+            if (empty($queue)) { 
+                echo "Queue is empty. Cannot delete.\n"; 
+            } else { 
+                $deleted = array_shift($queue);  // Remove from front 
+                echo "Deleted element: $deleted\n"; 
+            } 
+            break; 
+ 
+        case 3: 
+            if (empty($queue)) { 
+                echo "Queue is empty.\n"; 
+            } else { 
+                echo "Queue contents: "; 
+                foreach ($queue as $item) { 
+                    echo $item . " "; 
+                } 
+                echo "\n"; 
+            } 
+            break; 
+ 
+        case 4: 
+            echo "Exiting program...\n"; 
+            exit(0); 
+ 
+        default: 
+            echo "Invalid choice. Try again.\n"; 
+    } 
+} 
+?> 
+
+
+20) Write a menu driven program to perform the following stack related 
+operations:  
+a) Insert an element in stack  
+b) Delete an element from stack  
+c) Display the contents of stack  
+(Save by . php and run on terminal only) 
+ 
+<?php 
+// Stack implementation using array 
+$stack = array(); 
+ 
+while (true) { 
+    echo "\n====== Stack Operations ======\n"; 
+    echo "1. Push (Insert)\n"; 
+    echo "2. Pop (Delete)\n"; 
+    echo "3. Display Stack\n"; 
+    echo "4. Exit\n"; 
+    echo "Enter your choice: "; 
+ 
+    $choice = trim(fgets(STDIN)); // Read user input 
+ 
+    switch ($choice) { 
+        case 1: 
+            echo "Enter element to push: "; 
+            $element = trim(fgets(STDIN)); 
+            array_push($stack, $element); // Push element 
+            echo "Pushed: $element\n"; 
+            break; 
+ 
+        case 2: 
+            if (empty($stack)) { 
+                echo "Stack is empty. Cannot pop.\n"; 
+            } else { 
+                $popped = array_pop($stack); // Pop element 
+                echo "Popped element: $popped\n"; 
+            } 
+            break; 
+ 
+        case 3: 
+            if (empty($stack)) { 
+                echo "Stack is empty.\n"; 
+            } else { 
+                echo "Stack contents (Top -> Bottom): "; 
+                for ($i = count($stack) - 1; $i >= 0; $i--) { 
+                    echo $stack[$i] . " "; 
+                } 
+                echo "\n"; 
+            } 
+            break; 
+ 
+        case 4: 
+            echo "Exiting program...\n"; 
+            exit(0); 
+ 
+        default: 
+            echo "Invalid choice. Try again.\n"; 
+    } 
+} 
+?> 
+
+
+20) Write a menu driven program to perform various file operations. Accept 
+filename from user. 
+a) Display type of file.  
+b) Display last modification time of file  
+c) Display the size of file  
+d) Delete the file  
+(Save by . php and run on terminal only) 
+ 
+<?php 
+while (true) { 
+    echo "\n====== File Operations Menu ======\n"; 
+    echo "1. Display type of file\n"; 
+    echo "2. Display last modification time of file\n"; 
+    echo "3. Display size of file\n"; 
+    echo "4. Delete the file\n"; 
+    echo "5. Exit\n"; 
+    echo "Enter your choice: "; 
+ 
+    $choice = trim(fgets(STDIN)); 
+ 
+    if ($choice == 5) { 
+        echo "Exiting program...\n"; 
+        exit(0); 
+    } 
+ 
+    echo "Enter filename: "; 
+    $filename = trim(fgets(STDIN)); 
+ 
+    switch ($choice) { 
+        case 1: 
+            if (file_exists($filename)) { 
+                $fileType = filetype($filename); 
+                echo "File type: $fileType\n"; 
+            } else { 
+                echo "File does not exist.\n"; 
+            } 
+            break; 
+ 
+        case 2: 
+            if (file_exists($filename)) { 
+                $modTime = date("F d Y H:i:s", filemtime($filename)); 
+                echo "Last modification time: $modTime\n"; 
+            } else { 
+                echo "File does not exist.\n"; 
+            } 
+            break; 
+ 
+        case 3: 
+            if (file_exists($filename)) { 
+                $size = filesize($filename); 
+                echo "File size: $size bytes\n"; 
+            } else { 
+                echo "File does not exist.\n"; 
+            } 
+            break; 
+ 
+        case 4: 
+            if (file_exists($filename)) { 
+                if (unlink($filename)) { 
+                    echo "File '$filename' deleted successfully.\n"; 
+                } else { 
+                    echo "Error deleting file.\n"; 
+                } 
+            } else { 
+                echo "File does not exist.\n"; 
+            } 
+            break; 
+ 
+        default: 
+            echo "Invalid choice. Try again.\n"; 
+    } 
+} 
+?> 
+ 
+ 
+21) Write a program to read a flat file “student.dat”, calculate the percentage 
+and display the data from file in tabular format.(Student.dat file contains rollno, 
+name, OS, WT, DS, Python, Java, CN )  
+ 
+***** save by Student.dat file***** 
+1, Sagar, 80, 75, 70, 85, 90, 78 
+2, Leena, 90, 88, 92, 95, 85, 89 
+3, Vicky, 60, 65, 70, 55, 68, 72 
+(Save by . php) 
+ 
+<?php 
+$filename = "student.dat"; 
+ 
+if (!file_exists($filename)) { 
+    die("File $filename not found.\n"); 
+} 
+ 
+$handle = fopen($filename, "r"); 
+ 
+echo "<h2>Student Result Table</h2>"; 
+echo "<table border='1' cellpadding='8' cellspacing='0'>"; 
+echo "<tr> 
+        <th>Roll No</th> 
+        <th>Name</th> 
+        <th>OS</th> 
+        <th>WT</th> 
+        <th>DS</th> 
+        <th>Python</th> 
+        <th>Java</th> 
+        <th>CN</th> 
+        <th>Total</th> 
+        <th>Percentage</th> 
+      </tr>"; 
+ 
+while (($line = fgets($handle)) !== false) { 
+    $data = explode(",", trim($line));  // split CSV line 
+    if (count($data) < 8) continue;     // skip invalid lines 
+ 
+    $roll = trim($data[0]); 
+    $name = trim($data[1]); 
+    $marks = array_slice($data, 2);     // subjects 
+    $marks = array_map('intval', $marks); 
+ 
+    $total = array_sum($marks); 
+    $percentage = $total / count($marks); 
+ 
+    echo "<tr>"; 
+    echo "<td>$roll</td>"; 
+    echo "<td>$name</td>"; 
+    foreach ($marks as $m) { 
+        echo "<td>$m</td>"; 
+    } 
+    echo "<td>$total</td>"; 
+    echo "<td>" . number_format($percentage, 2) . "%</td>"; 
+    echo "</tr>"; 
+} 
+echo "</table>"; 
+ 
+fclose($handle); 
+?> 
+
+
+
+
